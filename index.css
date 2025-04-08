@@ -1,0 +1,723 @@
+body{
+    background-color:#F2F3F5;
+    align-items: center;
+    justify-content: center;
+}
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    gap: 10px;
+    padding: 10px 20px;
+    z-index: 1000; 
+    height: 50px;
+}
+.navbar .logo img{
+    height: 50px;
+    width: 50px;
+    margin-left: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.navbar .logo p{
+    color: white;
+    position: relative;
+    bottom:80px;
+    left: 100px;
+    cursor: pointer;
+}
+.search_button {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    padding: 5px;
+    background: white;
+    width: 45%;
+    height: 40px;
+    margin-left: 100px;
+
+}
+.search_button input {
+    border: none;
+    outline: none;
+    padding: 8px;
+    width: 100%;
+    font-size: 16px;
+}
+.search_button button {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+.tool{
+    display: flex;
+    gap: 15px;
+}
+.tool img{
+    height: 50px;
+    width: 50px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.tool p{
+    font-size: 15px;
+    color:white;
+    position: relative;
+    bottom: 10px;
+    cursor: pointer;
+}
+.menu {
+    background-color: rgb(41, 41, 84);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 60px;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+.menu li {
+    color: white;
+    font-size: 15px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.box img{
+    width: 100%;
+    position: relative;
+    top: 50px;
+    cursor: pointer;
+}
+.box_1{
+    background-color: white;
+    height: 400px;
+    width: 330px;
+    position: relative;
+    top: 50px;
+    left: 20px;
+}
+.box_1 img{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    padding: 10px 30px;
+    cursor: pointer;
+}
+.box_1 h2{
+    color: black;
+    padding: 10px;
+}
+.box_2{
+    background-color: white;
+    height: 400px;
+    width: 330px;
+    position: relative;
+    bottom: 370px;
+    margin-left: 400px;
+}
+.box_2 img{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    padding: 20px 30px;
+    cursor: pointer;
+}
+.box_2 h2{
+    color: black;
+    padding: 10px;
+}
+.box_3{
+    background-color: white;
+    height: 400px;
+    width: 330px;
+    position: relative;
+    bottom: 790px;
+    margin-left: 770px;
+}
+.box_3 img{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    padding: 20px 30px;
+    cursor: pointer;
+}
+.box_3 h2{
+    color: black;
+    padding: 10px;
+}
+.box_4{
+    background-color: white;
+    height: 400px;
+    width: 330px;
+    position: relative;
+    bottom: 1210px;
+    margin-left: 1150px;
+}
+.box_4 img{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    padding: 10px 30px;
+    cursor: pointer;
+}
+.box_4 h2{
+    color: black;
+    padding: 10px;
+}
+.box_5{
+    background-color: white;
+    height: 400px;
+    width: 330px;
+    position: relative;
+    bottom: 1180px;
+    margin-left: 1150px;
+}
+.box_5 img{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    padding: 10px 30px;
+    cursor: pointer;
+}
+.box_5 h2{
+    color: black;
+    padding: 10px;
+}
+.box_6{
+    background-color: white;
+    height: 400px;
+    width: 330px;
+    position: relative;
+    bottom: 1600px;
+    margin-left: 20px;
+}
+.box_6 img{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    padding: 10px 30px;
+    cursor: pointer;
+}
+.box_6 h2{
+    color: black;
+    padding: 10px;
+}
+.box_7{
+    background-color: white;
+    height: 400px;
+    width: 330px;
+    position: relative;
+    bottom: 2020px;
+    margin-left: 400px;
+}
+.box_7 img{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    padding: 10px 30px;
+    cursor: pointer;
+}
+.box_7 h2{
+    color: black;
+    padding: 10px;
+}
+.box_8{
+    background-color: white;
+    height: 400px;
+    width: 330px;
+    position: relative;
+    bottom: 2440px;
+    margin-left: 770px;
+}
+.box_8 img{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    padding: 10px 30px;
+    cursor: pointer;
+}
+.box_8 h2{
+    color: black;
+    padding: 10px;
+}
+.box_9 img{
+    height: 400px;
+    width: 100%;
+    position: relative;
+    bottom: 2400px;
+    cursor: pointer;
+}
+.box_9 h2{
+    color: black;
+    padding: 10px;
+    position: relative;
+    bottom: 2400px;
+    text-decoration: underline;
+}
+.box_10 img{
+    height: 400px;
+    width: 100%;
+    position: relative;
+    bottom: 2400px;
+    cursor: pointer;
+}
+.box_10 h2{
+    color: black;
+    padding: 10px;
+    position: relative;
+    bottom: 2400px;
+    text-decoration:underline;
+}
+.box_11{
+    background-color: white;
+    height: 400px;
+    width: 330px;
+    position: relative;
+    bottom: 2350px;
+    margin-left: 20px;
+}
+.box_11 img{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    padding: 10px 30px;
+    cursor: pointer;
+}
+.box_11 h2{
+    color: black;
+    padding: 10px;
+}
+.box_12{
+    background-color: white;
+    height: 400px;
+    width: 330px;
+    position: relative;
+    bottom: 2770px;
+    margin-left: 400px;
+}
+.box_12 img{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    padding: 20px 30px;
+    cursor: pointer;
+}
+.box_12 h2{
+    color: black;
+    padding: 10px;
+}
+.box_13{
+    background-color: white;
+    height: 400px;
+    width: 330px;
+    position: relative;
+    bottom: 3190px;
+    margin-left: 780px;
+}
+.box_13 img{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    padding: 20px 30px;
+    cursor: pointer;
+}
+.box_13 h2{
+    color: black;
+    padding: 10px;
+}
+.box_14{
+    background-color: white;
+    height: 400px;
+    width: 330px;
+    position: relative;
+    bottom: 3610px;
+    margin-left: 1150px;
+}
+.box_14 img{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    padding: 10px 30px;
+    cursor: pointer;
+}
+.box_14 h2{
+    color: black;
+    padding: 10px;
+}
+.box_15 img{
+    height: 300px;
+    width: 100%;
+    position: relative;
+    bottom: 3550px;
+    cursor: pointer;
+}
+.box_16{
+    background-color: white;
+    height: 150px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 3500px;
+    padding: 30px ;
+}
+.box_16 h2{
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 600px;
+}
+.box_16 button{
+    background-color: rgb(245, 245, 7);
+    padding: 10px 100px;
+    border-color: rgb(245, 245, 7);
+    border-radius: 20px;
+    margin-left: 630px;
+    cursor: pointer;
+}
+.box_16 p{
+    margin-left: 670px;
+}
+.box_16 a{
+    margin-left: 770px;
+    position: relative;
+    bottom: 35px;
+}
+.box_17{
+    background-color: rgb(41, 41, 84);
+    height: 50px;
+    position: relative;
+    bottom: 3520px;
+}
+.box_17 h3{
+    color: white;
+    margin-left: 730px;
+    padding: 10px;
+    cursor: pointer;
+}
+.box_18{
+    background-color: rgb(30, 30, 65);
+    height: 200px;
+    position: relative;
+    bottom: 3520px;
+}
+.box_18 ul{
+    list-style: none;
+    display: inline-block;
+    padding: 0px 50px;
+}
+.box_18 li{
+    color: white;
+    position: relative;
+    top: 50px;
+    left: 200px;
+    cursor: pointer;
+}
+.box_20{
+    background-color: rgb(30, 30, 65);
+    height: 200px;
+    position: relative;
+    bottom: 3540px;
+}
+.box_20 ul{
+    list-style: none;
+    display: inline-block;
+    padding: 0px 50px;
+}
+.box_20 li{
+    color: white;
+    position: relative;
+    bottom: 250px;
+    left: 700px;
+    cursor: pointer;
+}
+.box_19{
+    background-color: rgb(30, 30, 65);
+    height: 100px;
+    position: relative;
+    bottom: 3540px;
+}
+.box_19 ul{
+    list-style: none;
+    display: inline-block;
+    padding: 0px 50px;
+}
+.box_19 li{
+    color: white;
+    position: relative;
+    bottom: 150px;
+    left: 450px;
+    cursor: pointer;
+}
+.box_21{
+    background-color: rgb(30, 30, 65);
+    height: 100px;
+    position: relative;
+    bottom: 3540px;
+}
+.box_21 ul{
+    list-style: none;
+    display: inline-block;
+    padding: 0px 50px;
+}
+.box_21 li{
+    color: white;
+    position: relative;
+    bottom: 450px;
+    left: 1050px;
+    cursor: pointer;
+}
+.box_21 img{
+    height: 50px;
+    width: 100px;
+    position: relative;
+    bottom: 200px;
+    left: 300px;
+}
+.box_21 button{
+    background-color:rgb(30, 30, 65) ;
+    color: white;
+    padding: 10px 20px;
+    position: relative;
+    bottom: 220px;
+    left: 400px;
+    cursor: pointer;
+}
+.box_22{
+    background-color: black;
+    height: 300px;
+    width: 100%;
+    position: relative;
+    bottom: 3650px;
+}
+.box_22 ul{
+    list-style: none;
+    padding: 20px 30px;
+    margin-left: 200px;
+}
+.box_22 li{
+    color: white;
+}
+.box_23{
+    position: relative;
+    bottom: 3970px;
+    left: 200px;
+}
+.box_23 ul{
+    list-style: none;
+    padding: 20px 30px;
+    margin-left: 200px;
+}
+.box_23 li{
+    color: white;
+}
+.box_24{
+    position: relative;
+    bottom: 4190px;
+    left: 400px;
+}
+.box_24 ul{
+    list-style: none;
+    padding: 20px 30px;
+    margin-left: 200px;
+}
+.box_24 li{
+    color: white;
+}
+.box_25{
+    position: relative;
+    bottom: 4410px;
+    left: 600px;
+}
+.box_25 ul{
+    list-style: none;
+    padding: 20px 30px;
+    margin-left: 200px;
+}
+.box_25 li{
+    color: white;
+}
+.box_26{
+    position: relative;
+    bottom: 4410px;
+    left: 300px;
+}
+.box_26 ul{
+    list-style: none;
+    padding: 20px 30px;
+    margin-left: 200px;
+}
+.box_26 li{
+    color: white;
+    gap: 10px;
+}
+
+
+@media (max-width: 600px) {
+    body {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .navbar {
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+        gap: 5px;
+    }
+
+    .navbar .logo img {
+        height: 40px;
+        width: 40px;
+        margin-left: 10px;
+    }
+
+    .navbar .logo p {
+        bottom: 0;
+        left: 0;
+        font-size: 14px;
+        position: static;
+        text-align: center;
+    }
+
+    .search_button {
+        width: 90%;
+        margin-left: 0;
+    }
+
+    .tool {
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .tool img {
+        height: 40px;
+        width: 40px;
+    }
+
+    .menu {
+        flex-direction: column;
+        top: 50px;
+    }
+
+    .menu ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .menu li {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    .box {
+        top: 10px;
+    }
+
+    .box img {
+        width: 100%;
+        top: 0;
+    }
+
+    .box_1,
+    .box_2,
+    .box_3,
+    .box_4,
+    .box_5,
+    .box_6,
+    .box_7,
+    .box_8,
+    .box_11,
+    .box_12,
+    .box_13,
+    .box_14 {
+        width: 90%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        bottom: 0;
+    }
+
+    .box_1 img,
+    .box_2 img,
+    .box_3 img,
+    .box_4 img,
+    .box_5 img,
+    .box_6 img,
+    .box_7 img,
+    .box_8 img,
+    .box_11 img,
+    .box_12 img,
+    .box_13 img,
+    .box_14 img {
+        height: 80px;
+        width: 80px;
+        padding: 5px;
+    }
+
+    .box_9 img,
+    .box_10 img {
+        height: auto;
+        bottom: 0;
+    }
+
+    .box_16 h2,
+    .box_16 p,
+    .box_16 a {
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .box_16 button {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .box_17 h3 {
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .box_18 ul,
+    .box_20 ul,
+    .box_19 ul,
+    .box_21 ul {
+        padding: 0;
+        text-align: center;
+        display: block;
+    }
+
+    .box_22,
+    .box_23,
+    .box_24,
+    .box_25,
+    .box_26 {
+        width: 100%;
+        left: 0;
+        text-align: center;
+    }
+
+    .box_22 ul,
+    .box_23 ul,
+    .box_24 ul,
+    .box_25 ul,
+    .box_26 ul {
+        margin-left: 0;
+    }
+}
+
+
+
+
